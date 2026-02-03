@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:5000/api/transactions";
+const API_URL = "https://money-manager-backend-xdyn.onrender.com/api/transactions";
 
 export const getTransactions = async () => {
   const res = await fetch(API_URL);
